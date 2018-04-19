@@ -39,6 +39,10 @@ console.log(LOAD_PLIST.sync('test.plist'))
 // => { foo: 'bar' }
 ```
 
+## See also
+
+- [write-nextstep-plist](https://github.com/delucis/write-nextstep-plist) - Stringify and write a NeXTSTEP property list atomically
+
 ## Acknowledgements
 
 Parsing is accomplished using Chee’s [`nextstep-plist`](https://www.npmjs.com/package/nextstep-plist) module.
