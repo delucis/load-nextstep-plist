@@ -1,0 +1,11 @@
+{
+unquotedString = works;
+quotedString = "it works";
+array = (
+works,
+"and works"
+);
+object = {
+array = (works);
+};
+}

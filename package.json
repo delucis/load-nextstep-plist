@@ -1,13 +1,13 @@
 {
-  "name": "load-glyphs-file",
+  "name": "load-nextstep-plist",
   "version": "0.0.1",
-  "description": "Read and parse a .glyphs font file",
+  "description": "Read and parse a NeXTSTEP property list file",
   "license": "GPL-3.0",
-  "repository": "delucis/load-glyphs-file",
+  "repository": "delucis/load-nextstep-plist",
   "bugs": {
-    "url": "https://github.com/delucis/load-glyphs-file/issues"
+    "url": "https://github.com/delucis/load-nextstep-plist/issues"
   },
-  "homepage": "https://github.com/delucis/load-glyphs-file#readme",
+  "homepage": "https://github.com/delucis/load-nextstep-plist#readme",
   "author": {
     "name": "Chris Swithinbank",
     "email": "swithinbank@gmail.com",
@@ -24,7 +24,8 @@
   ],
   "keywords": [
     "read",
-    "glyphs",
+    "plist",
+    "nextstep",
     "file-format",
     "load",
     "parse",

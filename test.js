@@ -1,14 +1,25 @@
 import path from 'path'
 import test from 'ava'
-import loadGlyphs from './'
+import loadPlist from './'
 
-const testFile = path.join(__dirname, 'test.glyphs')
+const testFile = path.join(__dirname, 'test.plist')
 
 test('async', async test => {
-  const data = await loadGlyphs(testFile)
-  test.is(data.familyName, 'Test Font')
+  const data = await loadPlist(testFile)
+  test.is(data.unquotedString, 'works')
+  test.is(data.quotedString, 'it works')
+  test.true(Array.isArray(data.array))
+  test.is(data.array[1], 'and works')
+  test.true(typeof data.object === 'object')
+  test.true(data.object.hasOwnProperty('array'))
 })
 
 test('sync', test => {
-  test.is(loadGlyphs.sync(testFile).familyName, 'Test Font')
+  const data = loadPlist.sync(testFile)
+  test.is(data.unquotedString, 'works')
+  test.is(data.quotedString, 'it works')
+  test.true(Array.isArray(data.array))
+  test.is(data.array[1], 'and works')
+  test.true(typeof data.object === 'object')
+  test.true(data.object.hasOwnProperty('array'))
 })
