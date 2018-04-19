@@ -1,0 +1,41 @@
+{
+  "name": "load-glyphs-file",
+  "version": "0.0.1",
+  "description": "Read and parse a .glyphs font file",
+  "license": "GPL-3.0",
+  "repository": "delucis/load-glyphs-file",
+  "bugs": {
+    "url": "https://github.com/delucis/load-glyphs-file/issues"
+  },
+  "homepage": "https://github.com/delucis/load-glyphs-file#readme",
+  "author": {
+    "name": "Chris Swithinbank",
+    "email": "swithinbank@gmail.com",
+    "url": "http://chrisswithinbank.net/"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "read",
+    "glyphs",
+    "file-format",
+    "load",
+    "parse",
+    "file"
+  ],
+  "dependencies": {
+    "graceful-fs": "^4.1.11",
+    "nextstep-plist": "git+https://gitlab.com/delucis/nextstep-plist.git#delucis-patch",
+    "strip-bom": "^3.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
+}
