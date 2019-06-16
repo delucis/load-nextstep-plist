@@ -1,6 +1,6 @@
 {
   "name": "load-nextstep-plist",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Read and parse a NeXTSTEP property list file",
   "license": "GPL-3.0",
   "repository": "delucis/load-nextstep-plist",
