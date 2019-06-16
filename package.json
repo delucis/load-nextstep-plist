@@ -17,7 +17,8 @@
     "node": ">=8"
   },
   "scripts": {
-    "test": "nyc ava"
+    "test": "nyc ava",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "files": [
     "index.js"
@@ -38,6 +39,7 @@
   },
   "devDependencies": {
     "ava": "^2.1.0",
+    "coveralls": "^3.0.4",
     "nyc": "^14.1.1"
   }
 }
