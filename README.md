@@ -1,4 +1,4 @@
-# load-nextstep-plist [![Build Status](https://travis-ci.org/delucis/load-nextstep-plist.svg?branch=master)](https://travis-ci.org/delucis/load-nextstep-plist)
+# load-nextstep-plist [![Build Status](https://travis-ci.org/delucis/load-nextstep-plist.svg?branch=master)](https://travis-ci.org/delucis/load-nextstep-plist) [![Coverage Status](https://coveralls.io/repos/github/delucis/load-nextstep-plist/badge.svg?branch=master)](https://coveralls.io/github/delucis/load-nextstep-plist?branch=master)
 
 > Read and parse a NeXTSTEP property list file
 
